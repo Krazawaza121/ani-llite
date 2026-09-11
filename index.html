@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ani-lite</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<header><h1>ani-lite</h1><a href="watch.html">player</a></header>
+<p class="meta">Lightweight. No animations. Plays only files/URLs you have rights to.</p>
+<label>Search library<br><input id="q" type="search" autocomplete="off" placeholder="type to filter"></label>
+<ul id="list"></ul>
+<h2>Add your own</h2>
+<form id="add">
+<input id="t" required placeholder="Title e.g. My Lecture 480p">
+<input id="u" required placeholder="https://...mp4 or ...m3u8 (your file)" inputmode="url">
+<input id="s" placeholder="Subtitle track URL (.vtt, optional)" inputmode="url">
+<button>Add</button>
+</form>
+<p class="meta">Stored only in this browser (localStorage). 480p default for weak TVs.</p>
+</body>
+</html>
